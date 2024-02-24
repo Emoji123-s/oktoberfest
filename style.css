@@ -155,3 +155,24 @@ a:hover{
     font-size: 18px;
     letter-spacing: 2px;
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 45%;
+  }
+
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .steps a {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+}
